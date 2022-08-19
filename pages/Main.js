@@ -56,7 +56,7 @@ export default function Main() {
         onChange={handleEmailChange}
         value={myEmail}
       />
-      <h3> <a href = "https://support.google.com/accounts/answer/185833?hl=en" target = "_blank" style = {{color: "blue"}}> App Code </a> </h3>
+      <h3> <a href = "https://support.google.com/accounts/answer/185833?hl=en" rel="noreferrer"  target = "_blank" style = {{color: "blue"}}> App Code </a> </h3>
       <input
         onChange={handleAppCodeChange}
         value={appCode}
